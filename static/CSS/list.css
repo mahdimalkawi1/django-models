@@ -1,0 +1,93 @@
+/* list.css */
+
+/* Global Styles */
+body {
+    background-color:rgb(134, 158, 111);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #463232;
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Heading Styles */
+  h1 {
+    color: #333;
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  
+  /* Snack List Styles */
+  .snack-list {
+    margin-top: 20px;
+  }
+  
+  .snack-item {
+    margin-bottom: 10px;
+  }
+  
+  .snack-item a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .snack-item a:hover {
+    text-decoration: underline;
+  }
+  
+/* list.css */
+
+/* Styles for the navigation bar */
+/* nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+} */
+
+/* Styles for the snack detail page */
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #666;
+}
+
+/* Styles for the snack list page */
+h1.snack-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+h2 a {
+    color: #0066cc;
+    text-decoration: none;
+}
